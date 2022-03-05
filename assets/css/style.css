@@ -1,0 +1,99 @@
+body {
+    background-color:  hsl(217, 54%, 11%);
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    width: 75%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.card {
+  /*box-shadow: 8px 8px rgb(16 33 58);*/
+  width: 26%;
+  margin: 20rem auto;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+card:hover {
+  box-shadow: 8px 2px 8px 0px rgb(16 33 58);
+}
+
+.cardImage-container {
+    padding: 1.5rem 1.5rem;
+    position: relative;
+
+}
+
+.NFT-image {
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.Desc-container {
+    position: relative;
+    padding: 0 1.8rem;    
+
+}
+
+.price-time{
+    display: flex;
+    position: relative;
+
+}
+
+.ETT-icon{
+    position: relative;
+    top: 1rem;
+    right: 0.5rem;
+    
+
+}
+
+.price {
+    display: flex;
+    position: relative;
+    left: 2rem;
+
+}
+
+.time-left{
+    display: flex;
+    position: relative;
+    left: 9rem;
+
+}
+
+.time-icon {
+    position: relative;
+    top: 1.2rem;
+    right: 0.5rem;
+}
+
+.creator-container {
+    display: flex;
+    padding: 0.5rem 2rem;
+    position: relative;
+}
+
+.creator-icon {
+    width: 3.5rem;    
+}
