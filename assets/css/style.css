@@ -71,15 +71,14 @@ card:hover {
 .price {
     display: flex;
     position: relative;
-    left: 2rem;
-
+    left: 1.5rem;
+    width: 50%;
 }
 
 .time-left{
     display: flex;
     position: relative;
-    left: 9rem;
-
+    left: 40%;
 }
 
 .time-icon {
