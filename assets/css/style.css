@@ -95,5 +95,6 @@ card:hover {
 }
 
 .creator-icon {
-    width: 3.5rem;    
+    width: 3.5rem; 
+    padding-right: 1rem;   
 }
